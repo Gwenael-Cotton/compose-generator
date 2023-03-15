@@ -1,0 +1,16 @@
+{
+  "name": "compose-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-docker-compose": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "write-yaml-file": "^4.2.0"
+  }
+}

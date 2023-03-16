@@ -31,9 +31,9 @@ services:
       POSTGRES_PASSWORD: superpassword
       POSTGRES_DB: mydatabasename
     volumes:
-      - mystrapi-data:/var/lib/postgresql/data/
+      - my-data:/var/lib/postgresql/data/
 ports:
   - '5432:5432'
 volumes:
-  mystrapi-data:
+  my-data:
 ```
